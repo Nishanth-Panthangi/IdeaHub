@@ -1,5 +1,4 @@
 # IdeaXHub
-Idea-Versioning-System ()
 
 IdeaXHub is a platform that allows users to create, collaborate on, and iterate over ideas. It brings the concept of version control to idea development, fostering creativity, collaboration, and transparency.
 
