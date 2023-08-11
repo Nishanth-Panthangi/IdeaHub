@@ -13,7 +13,7 @@ IdeaXHub is a platform that allows users to create, collaborate on, and iterate 
 - **Notifications:** Receive updates on ideas followed or collaborated on.
 - **Search and Filtering:** Find ideas and filter results based on popularity, recent activity, and more.
 
-## Tech Stack
+## Tech Stack (Current Plan)
 
 - **Backend:** Java, Spring Boot, Spring Data JPA, Spring Security
 - **Database:** PostgreSQL/MySQL/MongoDB
@@ -22,17 +22,5 @@ IdeaXHub is a platform that allows users to create, collaborate on, and iterate 
 - **Testing:** JUnit, Mockito
 - **Deployment:** Docker, Kubernetes (optional)
 
-## Getting Started
 
-### Prerequisites
-
-- Java 8 or higher
-- Maven or Gradle
-- Git
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Nishanth-Panthangi/IdeaHub.git
 
