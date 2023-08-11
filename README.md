@@ -2,7 +2,7 @@
 
 IdeaXHub is a platform that allows users to create, collaborate on, and iterate over ideas. It brings the concept of version control to idea development, fostering creativity, collaboration, and transparency.
 
-## Features
+## Roadmap Features
 
 - **User Account Management:** Secure user registration, login, and profile management using Spring Security.
 - **Idea Repositories:** Users can create, update, and delete repositories representing unique ideas.
@@ -13,7 +13,7 @@ IdeaXHub is a platform that allows users to create, collaborate on, and iterate 
 - **Notifications:** Receive updates on ideas followed or collaborated on.
 - **Search and Filtering:** Find ideas and filter results based on popularity, recent activity, and more.
 
-## Tech Stack (Current Plan)
+## Tech Stack Plan
 
 - **Backend:** Java, Spring Boot, Spring Data JPA, Spring Security
 - **Database:** PostgreSQL/MySQL/MongoDB
