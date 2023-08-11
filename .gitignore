@@ -1,0 +1,49 @@
+# Compiled bytecode
+*.class
+
+# Build files for Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Build files for Gradle
+build/
+.gradle/
+
+mvnw
+mvnw.cmd
+# IDE files (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Mac OS X artifacts
+.DS_Store
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Other unnecessary files
+*.swp
+*~.nib
+local.properties
+*.bak
+*.swp
+*~
+*#
+#*#
+.#*
+!.gitignore
+
