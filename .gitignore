@@ -25,6 +25,8 @@ mvnw.cmd
 .project
 .settings/
 
+.vscode/
+
 # Mac OS X artifacts
 .DS_Store
 
