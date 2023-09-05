@@ -15,7 +15,7 @@ IdeaXHub is a platform that allows users to create, collaborate on, and iterate 
 
 ## Tech Stack Plan
 
-- **Backend:** Java, Spring Boot, Spring Data JPA, Spring Security
+- **Backend:** Java 11, Spring Boot, Spring Data JPA, Spring Security (Spring Framework V2.7.0)
 - **Database:** PostgreSQL/MySQL/MongoDB
 - **Frontend:** (TBD)
 - **Version Control:** Git, GitHub
