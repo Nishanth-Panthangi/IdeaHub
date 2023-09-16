@@ -2,8 +2,16 @@ package com.ideaXhub.models;
 
 import javax.persistence.*;
 import java.util.Date;
-import java.util.HashSet;
-import java.util.Set;
+
+
+/**
+ * User Class
+ * id
+ * email
+ * password
+ * firstName
+ * lastName
+ */
 
 /**
  * User Class
@@ -40,6 +48,6 @@ public class User {
 
     private boolean isActive;
     private boolean emailVerified;
-    
+
 }
 
