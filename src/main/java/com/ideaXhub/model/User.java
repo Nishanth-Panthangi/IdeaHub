@@ -1,4 +1,4 @@
-package com.ideaXhub.models;
+package com.ideaXhub.model;
 
 import javax.persistence.*;
 import java.util.Date;
