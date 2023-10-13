@@ -23,12 +23,14 @@ public class User {
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedAt;
-
+    //TODO Implement these later in level2
+    /**
     @Temporal(TemporalType.TIMESTAMP)
     private Date lastLogin;
 
     private boolean isActive;
     private boolean emailVerified;
+     **/
 
     public Long getId() {
         return id;
@@ -85,7 +87,7 @@ public class User {
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
     }
-
+/**
     public Date getLastLogin() {
         return lastLogin;
     }
@@ -109,5 +111,6 @@ public class User {
     public void setEmailVerified(boolean emailVerified) {
         this.emailVerified = emailVerified;
     }
+ **/
 }
 
