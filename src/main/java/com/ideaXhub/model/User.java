@@ -10,13 +10,11 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(unique = true)
-    private String email;
-
-    private String password;
     private String firstName;
     private String lastName;
+    @Column(unique = true)
+    private String email;
+    private String password;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdAt;
