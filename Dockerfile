@@ -25,7 +25,7 @@ RUN wget https://downloads.apache.org/tomcat/tomcat-9/v${TOMCAT_VERSION}/bin/apa
     rm apache-tomcat-${TOMCAT_VERSION}.tar.gz
 
 # Copy your WAR file into the Tomcat webapps directory
-COPY ideaxhub.war /opt/tomcat/webapps/
+COPY target/ideaxhub.war /opt/tomcat/webapps/
 
 # Expose port 8080
 EXPOSE 8080
