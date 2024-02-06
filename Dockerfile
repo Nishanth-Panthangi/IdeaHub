@@ -16,10 +16,10 @@ ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64
 RUN apt-get install -y wget unzip
 
 # Define the Tomcat version to install
-ENV TOMCAT_VERSION 9.0.62
+ENV TOMCAT_VERSION 9.0.85
 
 # Download and install Apache Tomcat
-RUN wget https://downloads.apache.org/tomcat/tomcat-9/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
+RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
     tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz -C /opt && \
     mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat && \
     rm apache-tomcat-${TOMCAT_VERSION}.tar.gz
