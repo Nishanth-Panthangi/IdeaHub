@@ -19,7 +19,7 @@ RUN apt-get install -y wget unzip
 ENV TOMCAT_VERSION 9.0.62
 
 # Download and install Apache Tomcat
-RUN wget https://downloads.apache.org/tomcat/tomcat-9/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
+RUN wget https://dlcdn.apache.org/tomcat/tomcat-9/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz && \
     tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz -C /opt && \
     mv /opt/apache-tomcat-${TOMCAT_VERSION} /opt/tomcat && \
     rm apache-tomcat-${TOMCAT_VERSION}.tar.gz
